@@ -1,5 +1,9 @@
-# ConfusingScammers
+# Confusing Scammers: Create made up user credentials to make the scammers' lives harder
 The script will try to simulate an user entering its own details into a malicious website
+
+# Note:
+Most of these website have a front site which has a link that redirects the information to a different website. In order to identify which URL to use have a look at this link: (https://developers.google.com/web/tools/chrome-devtools/network)
+
 
 # How?
 - The script will guide create a fake password and email account with the extension of choice 
@@ -12,5 +16,4 @@ The script will try to simulate an user entering its own details into a maliciou
     
 - Finally using the requests library, the user will POST to the URL of choice the made up user name, email address and also possibly a telephone number
 
-#Note:
-Most of these website have a front site which has a link that redirects the information to a different website. In order to identify which URL to use have a look at this link: (https://developers.google.com/web/tools/chrome-devtools/network)
+
